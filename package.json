@@ -1,0 +1,44 @@
+{
+  "name": "betaplus1_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "server": {
+      "patterns": [
+        "src/Server"
+      ],
+      "clearBuffer": true,
+      "extensions": [
+        "js",
+        "json"
+      ]
+    },
+    "client": {
+      "patterns": [
+        "src/Client"
+      ],
+      "clearBuffer": true,
+      "extensions": [
+        "js",
+        "json"
+      ]
+    }
+  },
+  "scripts": {
+    "client": "node src/Client/Client.js",
+    "server": "node src/Server/Server.js",
+    "start": "npm-watch server",
+    "start-client": "npm-watch client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "http-server": "^0.12.3",
+    "js-sha256": "^0.9.0",
+    "node-fetch": "^2.6.0",
+    "npm-watch": "^0.6.0",
+    "serialport": "^9.0.0"
+  }
+}

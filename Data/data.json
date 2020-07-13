@@ -1,0 +1,7 @@
+{
+  "object1": { "property": "value" },
+  "object2": { "data": "set by server" },
+  "object3": { "a": "b" },
+  "object4": { "fieldName": 122 },
+  "content": "<h1>HALO<h1/>"
+}
